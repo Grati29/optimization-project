@@ -23,6 +23,7 @@ x0 = x_initial;
 options = optimoptions('fmincon', 'Display', 'iter');
 [x_fmincon, cost_fmincon] = fmincon(objective, x0, [], [], [], [], lb, ub, [], options);
 
+
 % CVX
 cvx_begin
     variables x y
