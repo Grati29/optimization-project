@@ -3,7 +3,7 @@
 ## Description
 Imagine we are at the seaside, where there is a power station located on the beach. From this station, we need to install an electric line to an offshore installation located at the specified distances in the diagram 1. The challenge is to determine how to install this electric line in a way that minimizes the total cost.
 
-[Diagram_1](link-to-your-image)
+[Diagram_1](https://github.com/Grati29/optimization-project/blob/main/Diagrams/Diagram1.png)
 
 The two immediate solutions are:
 
@@ -22,7 +22,7 @@ Cost = on-land cost + water cost
 Cost = $50 × (distance on land) + $130 × (distance in water)
 Cost = 50(5000 − x) + 130√(x² + 10000²)
 
-[Diagram_2](link-to-your-image)
+[Diagram_2](https://github.com/Grati29/optimization-project/blob/main/Diagrams/Diagram1.png)
 
 ## Formulating the Optimization Problem
 
@@ -69,7 +69,7 @@ The Projected Gradient Method reached the solution faster compared to the Barrie
 
 Using both `Fmincon` and solving with `CVX` yielded approximately the same values compared to applying the iterative algorithms.
 
-[Graph](https://github.com/Grati29/optimization-project/edit/main/Results/Graphs.png)  
+[Graph](https://github.com/Grati29/optimization-project/blob/main/Results/Graphs.png)  
 
 
 
