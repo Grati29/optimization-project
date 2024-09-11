@@ -22,7 +22,7 @@ Cost = on-land cost + water cost
 Cost = $50 × (distance on land) + $130 × (distance in water)
 Cost = 50(5000 − x) + 130√(x² + 10000²)
 
-[Diagram_2](https://github.com/Grati29/optimization-project/blob/main/Diagrams/Diagram1.png)
+[Diagram_2](https://github.com/Grati29/optimization-project/blob/main/Diagrams/Diagram2.png)
 
 ## Formulating the Optimization Problem
 
